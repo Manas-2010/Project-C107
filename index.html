@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>RECOGNIZING ANIMALS BY VOICE</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <center>
+        <div class="btn btn-header"  id="header">
+            <h1>RECOGNIZING ANIMALS BY VOICE</h1>
+            <p>Note: play diffent animals sound to recognice it</p>
+        </div>
+        <div id="body">
+            <center>
+                <button class="btn btn-primary" onclick="start()">Start</button>
+                <p id="confidence"></p>
+                <h3>I can here: <span id="CanHere"></span>
+                <p id="howMany"></p>
+                </h3>
+                <img id="canHearGif" height="777px" src="listen.gif">
+            </center>
+        </div>
+        <div class="copy_right_foorter">
+            <h3>Devloped by - Manas N</h3>
+        </div>
+    </center>
+</body>
+</html>
